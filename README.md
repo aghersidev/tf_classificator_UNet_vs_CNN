@@ -1,4 +1,4 @@
-# ???? Pet Image Segmentation and Detection with TensorFlow
+# Pet Image Segmentation and Detection with TensorFlow
 
 This project explores **computer vision techniques** using deep learning to localize pets in images from the **Oxford-IIIT Pet Dataset**. It covers two related but distinct tasks:
 
@@ -9,7 +9,7 @@ The models are implemented and trained using **TensorFlow / Keras** and **Tensor
 
 ---
 
-## ?? Dataset
+## Dataset
 
 * **Oxford-IIIT Pet Dataset**
 * Contains images of cats and dogs with:
@@ -25,24 +25,24 @@ tensorflow_datasets.load("oxford_iiit_pet")
 
 ---
 
-## ?? Project Structure
+## Project Structure
 
-### Question 1 — Semantic Segmentation
+### Question 1 â€” Semantic Segmentation
 
 **Goal:**
 Predict a binary mask indicating which pixels belong to the pet.
 
 **Input:**
 
-* RGB image (128×128)
+* RGB image (128Ã—128)
 
 **Output:**
 
-* Binary segmentation mask (128×128)
+* Binary segmentation mask (128Ã—128)
 
 **Models implemented:**
 
-* Simple CNN-based encoder–decoder
+* Simple CNN-based encoderâ€“decoder
 * **U-Net** architecture with skip connections
 
 **Techniques:**
@@ -59,21 +59,21 @@ Predict a binary mask indicating which pixels belong to the pet.
 
 ---
 
-### Question 2 — Object Detection (Bounding Box Regression)
+### Question 2 â€” Object Detection (Bounding Box Regression)
 
 **Goal:**
 Predict a bounding box tightly enclosing the pet.
 
 **Input:**
 
-* RGB image (128×128)
+* RGB image (128Ã—128)
 
 **Output:**
 
 * Bounding box coordinates:
 
 ```
-[x_min, y_min, x_max, y_max] ? [0,1]
+[x_min, y_min, x_max, y_max]   [0,1]
 ```
 
 **Key idea:**
@@ -91,7 +91,7 @@ Bounding boxes are automatically extracted from segmentation masks and used as t
 
 ---
 
-## ?? Evaluation
+##   Evaluation
 
 * Training and validation curves for:
 
@@ -102,7 +102,7 @@ Bounding boxes are automatically extracted from segmentation masks and used as t
 
 ---
 
-## ??? Technologies Used
+##   Technologies Used
 
 * Python
 * TensorFlow / Keras
@@ -112,7 +112,7 @@ Bounding boxes are automatically extracted from segmentation masks and used as t
 
 ---
 
-## ?? How to Run
+##   How to Run
 
 1. Install dependencies:
 
@@ -130,7 +130,7 @@ python andres_ghersi_sayan_20539425_hw4.py
 
 ---
 
-## ?? Key Takeaways
+##   Key Takeaways
 
 * Demonstrates the difference between **segmentation** and **detection**
 * Shows how segmentation masks can be reused to generate bounding boxes
@@ -139,8 +139,8 @@ python andres_ghersi_sayan_20539425_hw4.py
 
 ---
 
-## ?? Author
+##   Author
 
 **Andres Ghersi Sayan**
-Master’s Program in Computer Science
+Masterâ€™s Program in Computer Science
 Student ID: 20539425
