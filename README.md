@@ -141,6 +141,4 @@ python andres_ghersi_sayan_20539425_hw4.py
 
 ##   Author
 
-**Andres Ghersi Sayan**
-Master’s Program in Computer Science
-Student ID: 20539425
+**aghersidev**
